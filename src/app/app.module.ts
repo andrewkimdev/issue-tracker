@@ -1,14 +1,24 @@
+// Angular Modules
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+// Vendor Modules
+import { ClarityModule } from '@clr/angular';
+
+// App Components
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
-    BrowserModule
+    // Angular Modules
+    BrowserModule,
+    BrowserAnimationsModule,
+    // Vendor Modules
+    ClarityModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
