@@ -8,10 +8,12 @@ import { ClarityModule } from '@clr/angular';
 
 // App Components
 import { AppComponent } from './app.component';
+import { IssueListComponent } from './issue-list/issue-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    IssueListComponent,
   ],
   imports: [
     // Angular Modules
